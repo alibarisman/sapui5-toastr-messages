@@ -1,0 +1,16 @@
+<mvc:View controllerName="com.sap.ToastrMessage.controller.View" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Toastr Message">
+					<content>
+						<Button text="Toastr Success" press="onClickToastr1" />
+						<Button text="Toastr Info" press="onClickToastr2" />
+						<Button text="Toastr Warning" press="onClickToastr3" />
+						<Button text="Toastr Error" press="onClickToastr4" />
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
